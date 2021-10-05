@@ -6,7 +6,10 @@ namespace Open_Lab_03._03
     {
         public bool CompareCharactersCount(string str1, string str2)
         {
-            throw new NotImplementedException();
+
+            bool majurovnakudlzku = str1.Length == str2.Length;
+            return majurovnakudlzku;
+
         }
     }
 }
